@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 auto;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+  border: none;
+  box-sizing: border-box;
+}
+
+.field:focus {
+  outline-color: #e9d45b;
+}
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

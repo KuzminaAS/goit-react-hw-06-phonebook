@@ -1,0 +1,31 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url('./img/hardwood.jpeg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

@@ -1,0 +1,34 @@
+.button {
+  position: relative;
+  margin: 0 auto;
+  background: #ebdb84;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 1s ease-in-out;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.button:hover {
+  transition: 1s ease-in-out;
+}
+.border {
+  position: absolute;
+  left: 0;
+  top: 0;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.button:hover .border {
+  stroke-dashoffset: -480;
+}
+.text {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}

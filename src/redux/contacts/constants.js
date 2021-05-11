@@ -1,0 +1,5 @@
+export const ADD_TO_CONTACT = "ADD_TO_CONTACT";
+
+export const DELETE_CONTACT = "DELETE_CONTACT";
+
+export const CHANGE_FILTER = "CHANGE_FILTER";
